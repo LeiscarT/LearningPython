@@ -1,0 +1,5 @@
+valores = input("Ingrese valores numericos divididos por comas: ")
+list = valores.split(',')
+tuple = tuple(list)
+print('List: ', list)
+print('Tuple: ', tuple )
